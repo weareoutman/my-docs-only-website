@@ -109,8 +109,8 @@ module.exports = {
       require.resolve("@easyops-cn/docusaurus-search-local"),
       {
         hashed: true,
-        // indexPages: true,
-        docsRouteBasePath: "/"
+        indexPages: true,
+        // docsRouteBasePath: "/",
       },
     ],
   ]
